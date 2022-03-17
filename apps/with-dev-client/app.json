@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "eas-monorepo-app-with-dev-client",
+    "slug": "eas-monorepo-app-with-dev-client",
+    "owner": "bycedric",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourFirebase.bundleName",
+      "buildNumber": "1.0.0",
+      "googleServicesFile": "./GoogleService-Info-Client.plist",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.yourFirebase.bundleName",
+      "versionCode": 0,
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./google-services-client.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["@react-native-firebase/app"]
+  }
+}

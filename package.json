@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@acme/monorepo",
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "test": "yarn workspaces run test",
+    "with-dev-client": "yarn workspace @acme/app-with-dev-client"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
