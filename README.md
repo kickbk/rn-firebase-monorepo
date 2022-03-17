@@ -5,7 +5,7 @@
 
 ## How to test
 
-- Add your own firebase project `GoogleService-Info-Client.plist` and `google-services-client.json` to root directory of the app in `/app/with-dev-client`
+- Add your own firebase project `GoogleService-Info-Client.plist` and `google-services-client.json` to root directory of the app in `/apps/with-dev-client`
 - In `app.json` update both ios and android `bundleIdentifier` and `package` names.
 - Build the project on the simulator or device with `yarn ios`
 - When the app opens, click on `AUTH GET SETTINGS` and you should get your project settings data in console.
